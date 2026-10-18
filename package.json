@@ -1,0 +1,11 @@
+{
+  "name": "playwright-route-race",
+  "private": true,
+  "scripts": {
+    "test": "playwright test --repeat-each=100"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
